@@ -158,10 +158,11 @@ xgboost
 joblib
 ```
 ## Key Insights
-![Sentiment Distribution](images/sent%20dist%20plot.png)
+![Sentiment Distribution](images/sentiment%20dist%20plot.png)
 From the chart, it is evident that neutral tweets are the most frequent, significantly outnumbering the other two classes. Negative tweets follow, indicating that a considerable portion of the tweets express dissatisfaction or criticism. On the other hand, positive tweets are the least represented in the dataset.
 
 ![Perfomance Comparison](images/F1%20comparison%20plot.png)
+
 we can see that logistic regression outperfoms the other models
 
 
@@ -172,6 +173,7 @@ we can see that logistic regression outperfoms the other models
 
 The model performs well in identifying **neutral sentiment**, useful for general sentiment monitoring.
 While **positive sentiment (class 2)** is still somewhat underrepresented in predictions, the recall improvement makes it more reliable for identifying **satisfied users or endorsements**, critical for brand monitoring and marketing strategy.
+
 
 
 
